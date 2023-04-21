@@ -1,0 +1,60 @@
+.header {
+  box-sizing: border-box;
+  height: 480px;
+  background-image: url(../images/header_on_Tablet.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-bottom: 60px;
+
+  @include onTablet {
+    height: 628px;
+    background-position: center;
+    margin-bottom: 120px;
+  }
+
+  @include onDesktop {
+    height: 711px;
+    background-image: url(../images/header.jpg);
+
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    height: 480px;
+    padding-top: 29px;
+
+    @include onTablet {
+      height: 628px;
+      padding-top: 36px;
+    }
+
+    @include onDesktop {
+      height: 711px;
+    }
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 100%;
+    font-weight: 700;
+    margin-bottom: 88px;
+    text-align: center;
+    letter-spacing: -1.5px;
+    color: #ffffff;
+
+    @include onTablet {
+      font-size: 64px;
+      margin-bottom: 130px;
+    }
+
+    @include onDesktop {
+      font-size: 80px;
+      margin-bottom: 203px;
+    }
+  }
+}

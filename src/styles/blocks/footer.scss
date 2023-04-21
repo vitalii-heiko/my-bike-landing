@@ -1,0 +1,19 @@
+.footer {
+  height: 62.5vw;
+  background-image: url(../images/footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom 0 left -34vw;
+
+  margin-top: 120px;
+
+  @include onTablet {
+    height: 64.5vw;
+    background-position: bottom 0 left -38vw;
+  }
+
+  @include onDesktop {
+    height: 44vw;
+    background-position: 0 0;
+  }
+}

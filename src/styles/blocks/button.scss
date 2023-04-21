@@ -1,0 +1,24 @@
+.button {
+  width: 100%;
+  min-width: 250px;
+  height: 56px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+  color: #1d1d1d;
+
+  border-radius: 40px;
+  background-color: #fff;
+
+  &--send {
+    margin-bottom: 48px;
+  }
+
+  &:hover {
+    box-shadow: 1px 4px 16px rgba(232, 232, 240, 0.4);
+  }
+
+  &:active {
+    box-shadow: 1px 4px 16px rgba(232, 232, 240, 0.64);
+  }
+}
