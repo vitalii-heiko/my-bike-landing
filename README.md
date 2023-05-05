@@ -4,7 +4,7 @@
    
   # Description:
   
-  It's a simple landing page that can be used as an ayu online store page in some other way
+  It's a simple landing page that can be used as an online store page in some other way
     
 ## Used technologies:
   * HTML
